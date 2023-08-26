@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pytorch-bert-crf-ner"
+version = "0.1.0"
+description = ""
+authors = ["Michael Kang <michael3dk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytorch_bert_crf_ner"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+torch = "1.13.1"
+pytorch-transformers = "1.2.0"
+jupyter = "^1.0.0"
+gluonnlp = "0.10.0"
+mxnet = "1.9.1"
+numpy = "1.22.0"
+tokenizers = "0.11.6"
+transformers = "4.32.0"
+torchcrf = "^1.1.0"
+tensorflow = "2.9.3"
+konlpy = "0.5.2"
+tweepy = "3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
