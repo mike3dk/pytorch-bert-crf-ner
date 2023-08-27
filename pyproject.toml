@@ -16,10 +16,10 @@ mxnet = "1.9.1"
 numpy = "1.22.0"
 tokenizers = "0.11.6"
 transformers = "4.32.0"
-torchcrf = "^1.1.0"
 tensorflow = "2.9.3"
 konlpy = "0.5.2"
 tweepy = "3.10.0"
+pytorch-crf = "^0.7.2"
 
 
 [build-system]

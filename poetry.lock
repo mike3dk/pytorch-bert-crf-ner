@@ -2343,6 +2343,17 @@ files = [
 ]
 
 [[package]]
+name = "pytorch-crf"
+version = "0.7.2"
+description = "Conditional random field in PyTorch"
+optional = false
+python-versions = ">=3.6, <4"
+files = [
+    {file = "pytorch-crf-0.7.2.tar.gz", hash = "sha256:e6456e22ccfc99a3d4fe1e03e996103b1b39e9830bf3c7e12e7a9077d3be866d"},
+    {file = "pytorch_crf-0.7.2-py3-none-any.whl", hash = "sha256:1b2d7d5eea3255f6e0cac09ab8b645472e76ff70d9333bc88762cf7317a4992d"},
+]
+
+[[package]]
 name = "pytorch-transformers"
 version = "1.2.0"
 description = "Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM"
@@ -3404,21 +3415,6 @@ typing-extensions = "*"
 opt-einsum = ["opt-einsum (>=3.3)"]
 
 [[package]]
-name = "torchcrf"
-version = "1.1.0"
-description = "An Implementation of Conditional Random Fields in pytorch"
-optional = false
-python-versions = "*"
-files = [
-    {file = "TorchCRF-1.1.0-py3-none-any.whl", hash = "sha256:540f1a61ce94fa3c247719e2754a55e1cdd0e75b42f838ec025cfe158afd9151"},
-    {file = "TorchCRF-1.1.0.tar.gz", hash = "sha256:c916064e9b498a9f238a5f733e510ec3f271fd482e2970563a675cbf390d34fb"},
-]
-
-[package.dependencies]
-numpy = "*"
-torch = ">=1.0.0"
-
-[[package]]
 name = "tornado"
 version = "6.3.3"
 description = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
@@ -3786,4 +3782,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "5ff82f024f4b30c0ce91631475cebf6a3eb5539994ce807b3537e88ec03fc4fe"
+content-hash = "102c2ffc71646a989fe3fb4305cc9315524288977ca18782e213fe8f9bda6c57"
